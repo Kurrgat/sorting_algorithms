@@ -1,0 +1,3 @@
+O(n^2) // Best case: Requires nested loops for each element
+O(n^2) // Average case: Requires nested loops for each element
+O(n^2) // Worst case: Requires nested loops for each element
