@@ -1,0 +1,3 @@
+O(n log n) Best case: Balanced partitions
+O(n log n) Average case: Balanced partitions
+O(n^2)     Worst case: Unbalanced partitions
