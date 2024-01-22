@@ -69,5 +69,7 @@ void swap_ints(int *a, int *b);
 void heapify(int *array, size_t size, size_t base, size_t root);
 int getMax(int *array, int size);
 void countingSort(int *array, size_t size, int sig, int *buff);
+void bitonic_merge(int *arr, int low, int count, int dir);
+void bitonic_sort_recursive(int *arr, int low, int count, int dir);
 
 #endif /* SORT_H */
