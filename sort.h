@@ -67,5 +67,7 @@ void merge_subarr(int *subarr, int *buff, size_t front, size_t mid,
 void merge_sort_recursive(int *subarr, int *buff, size_t front, size_t back);
 void swap_ints(int *a, int *b);
 void heapify(int *array, size_t size, size_t base, size_t root);
+int getMax(int *array, int size);
+void countingSort(int *array, size_t size, int sig, int *buff);
 
 #endif /* SORT_H */
