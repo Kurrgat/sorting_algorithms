@@ -62,5 +62,8 @@ void quick_sort_hoare(int *array, size_t size);
 
 void quick_sort_recursive(int *array, int low, int high, size_t size);
 int lomuto_partition(int *array, int low, int high, size_t size);
+void merge_subarr(int *subarr, int *buff, size_t front, size_t mid,
+		size_t back);
+void merge_sort_recursive(int *subarr, int *buff, size_t front, size_t back);	
 
 #endif /* SORT_H */
