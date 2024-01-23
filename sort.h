@@ -73,5 +73,7 @@ void bitonic_merge(int *array, size_t size, size_t start, size_t seq,
 		char flow);
 void bitonic_seq(int *array, size_t size, size_t start, size_t seq, char flow);
 void bitonic_sort(int *array, size_t size);
+int hoare_partition(int *array, size_t size, int left, int right);
+void quicksort_hoare(int *array, int low, int high, size_t size);
 
 #endif /* SORT_H */
